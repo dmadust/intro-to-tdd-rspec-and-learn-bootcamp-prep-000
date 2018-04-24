@@ -11,4 +11,5 @@ describe "current_age_for_birth_year method" do
     twenty_eighteen = current_age_for_birth_year(0)
     
     expect(age_of_person).to eq(2018)
+  end
 end
